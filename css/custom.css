@@ -1,0 +1,134 @@
+.layer-dark {
+  position: relative;
+}
+.layer-dark:after {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(2, 2, 2, .5);
+  z-index: 0;
+}
+
+.layer-dark .container {
+  position: relative;
+  z-index: 1;
+}
+
+.image-header {
+  height: 400px;
+  background: url('../img/evyp_About.jpg') center center no-repeat scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.navbar-custom-inverted {
+  background-color: #222222;
+  border-color: transparent;
+}
+.navbar-custom-inverted .navbar-brand {
+  color: #fed136;
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+}
+.navbar-custom-inverted .navbar-brand:hover,
+.navbar-custom-inverted .navbar-brand:focus,
+.navbar-custom-inverted .navbar-brand:active,
+.navbar-custom-inverted .navbar-brand.active {
+  color: #fec503;
+}
+.navbar-custom-inverted .navbar-collapse {
+  border-color: rgba(255, 255, 255, 0.02);
+}
+.navbar-custom-inverted .navbar-toggle {
+  background-color: #fed136;
+  border-color: #fed136;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  color: white;
+  font-size: 12px;
+}
+.navbar-custom-inverted .navbar-toggle:hover,
+.navbar-custom-inverted .navbar-toggle:focus {
+  background-color: #fed136;
+}
+.navbar-custom-inverted .nav li a {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: white;
+}
+.navbar-custom-inverted .nav li a:hover,
+.navbar-custom-inverted .nav li a:focus {
+  color: #fed136;
+  outline: none;
+}
+.navbar-custom-inverted .navbar-nav > .active > a {
+  border-radius: 0;
+  color: white;
+  background-color: #fed136;
+}
+.navbar-custom-inverted .navbar-nav > .active > a:hover,
+.navbar-custom-inverted .navbar-nav > .active > a:focus {
+  color: white;
+  background-color: #fec503;
+}
+@media (min-width: 768px) {
+  .navbar-custom-inverted {
+    background-color: #222;
+    padding: 10px 0;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+    border: none;
+  }
+  .navbar-custom-inverted .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .navbar-custom-inverted .navbar-nav > .active > a {
+    border-radius: 3px;
+  }
+}
+
+.navbar-custom-inverted {
+  background-color: #222222;
+  border-color: transparent;
+}
+
+.videoWrapperOuter {
+  max-width: 640px;
+  margin-left:auto;
+  margin-right:auto;
+}
+.videoWrapperInner {
+  float: none;
+  clear: both;
+  width: 100%;
+  position: relative;
+  padding-bottom: 50%;
+  padding-top: 25px;
+  height: 0;
+}
+.videoWrapperInner iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* Keep at the bottom */
+.dropdown .dropdown-menu li a {
+  color: #333;
+}
